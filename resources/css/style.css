@@ -13,6 +13,8 @@ body {
 header {
   display: flex;
   position: fixed;
+  top: 0;
+
   border-bottom: 1px solid seashell;
   background-color: black;
 
@@ -47,4 +49,35 @@ nav a {
   color: seashell;
 }
 
+/* Main part of website */
+
+
 /* Mission Section */
+
+#mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 69px;
+
+  height: 700px;
+  width: 100%;
+
+  background-image: url(../images/img-mission-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#mission div {
+  background-color: black;
+  width: 1200px;
+}
+
+/* General Font style */
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
