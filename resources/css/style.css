@@ -6,6 +6,7 @@ body {
   opacity: 0.9;
   text-align: center;
   width: 1300px;
+  display: block;
 }
 
 /* Header with main navigation */
@@ -51,6 +52,12 @@ nav a {
 
 /* Main part of website */
 
+main {
+  display: block;
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
 
 /* Mission Section */
 
@@ -58,9 +65,6 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  position: absolute;
-  top: 69px;
 
   height: 700px;
   width: 100%;
@@ -70,11 +74,42 @@ nav a {
   background-repeat: no-repeat;
 }
 
-#mission div {
+#mission .content {
   background-color: black;
   width: 1200px;
 }
 
+/* Featured Tea Section */
+
+#featured-tea {
+  display: block;
+
+  width: 1000px;
+  margin: 0 auto;
+
+  padding-top: 70px;
+}
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+  width: 100%;
+  margin: 10px 0;
+}
+
+
+#featured-tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.image-content {
+  margin: 10px 15px;
+}
 /* General Font style */
 
 h2, h4 {
