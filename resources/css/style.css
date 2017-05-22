@@ -4,6 +4,8 @@ body {
   display: block;
   width: 100%;
 
+  margin-top: 0;
+
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -20,7 +22,7 @@ body {
 header {
   display: flex;
   position: fixed;
-  top: 0;
+  top: 0px;
 
   align-items: center;
   justify-content: space-between;
@@ -78,6 +80,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin: 0;
 
   height: 700px;
   width: 100%;
