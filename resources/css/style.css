@@ -1,0 +1,50 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  width: 1300px;
+}
+
+/* Header with main navigation */
+
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+
+  height: 69px;
+  width: 100%;
+
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 10;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  padding: 0 10px;
+}
+
+header li {
+  display: inline-block;
+
+  list-style: none;
+  text-decoration: underline;
+
+  padding: 10px;
+}
+
+nav a {
+  color: seashell;
+}
+
+/* Mission Section */
